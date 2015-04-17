@@ -4,9 +4,9 @@ This tool is simple to use and follows some of the $http syntax you see with fro
 To traverse through the dom, it uses jQuery's syntax
 
 ##Install
-''''
+````
 npm install data-miner
-''''
+````
 
 ##Example
 
