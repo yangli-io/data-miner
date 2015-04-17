@@ -3,6 +3,10 @@ A tool to mine data from the internet.
 This tool is simple to use and follows some of the $http syntax you see with front-end frameworks such as AngularJS.
 To traverse through the dom, it uses jQuery's syntax
 
+##Why I created this
+
+I like to mine data from the internet, for most modern websites that can be done easily by using their APIs.  With older sites this is much harder so I created data-miner. data-miner uses the syntax frontend engineers might be familiar with.  Data mine fetches the data and then uses jquery to find the dom elements containing the data.  It's really simple give it a try today!
+
 ##Install
 ````
 npm install data-miner
@@ -24,10 +28,6 @@ dataMiner.fetch('https://github.com/yangli1990/data-miner').success(function($){
 })
 
 ````
-
-##Why I created this
-
-I was mining data from the internet and it was pretty complicated, so I created this to help me mine data.
 
 ##Future Versions
 
